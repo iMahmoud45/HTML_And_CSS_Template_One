@@ -390,6 +390,14 @@ html {
   color: var(--secondary-color);
 }
 /* End Contact */
+@media (max-width: 767px) {
+  .contact .info h3 {
+    font-size: 28px;
+  }
+  .contact .info .mail {
+    font-size: 30px;
+  }
+}
 /* Start Footer */
 .footer {
   background-color: var(--secondary-color);
